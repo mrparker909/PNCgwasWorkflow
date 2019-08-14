@@ -1,6 +1,12 @@
 # PNCgwasWorkflow
 Workflow for imputation of PNC genomics data.
 
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
 Order to run for genotype imputation:
 | ---                    | ---                                                                                                        |
 |00a-createPheno.R       |Run as Rscript to make phenotype file with FID and IID as first two columns                                 |

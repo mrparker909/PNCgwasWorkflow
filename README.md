@@ -1,5 +1,5 @@
 # PNCgwasWorkflow
-Workflow for imputation of [https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000607.v1.p1](PNC) genomics data.
+Workflow for imputation of [PNC](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000607.v1.p1) genomics data.
 
 Order to run for genotype imputation:
 
@@ -17,7 +17,7 @@ Order to run for genotype imputation:
 |02b-alignment_v3.sh     |Submit as PBS job to perform alignment using HRC, run Run-plink.sh before moving on                         |
 |02c-bgzip.sh            |Submit as PBS job to compress chromosome files for upload to imputation server (Michigan Imputation Server) |
 
-At this point imputation should be attempted/completed on the [https://imputationserver.sph.umich.edu](Michigan Imputation Server).
+At this point imputation should be attempted/completed on the [Michigan Imputation Server](https://imputationserver.sph.umich.edu).
 
 | Filename               | Description                                                                                                |
 | ---                    | ---                                                                                                        |

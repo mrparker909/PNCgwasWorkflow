@@ -11,11 +11,11 @@ Order to run for genotype imputation:
 |01a-subsetEA.sh         |Submit as PBS job to subset the genotype files for race = EA                                                |
 |01b-recodeAlleles.sh    |Submit as PBS job to recode alleles from 12 (AB) coding to ACGT coding                                      |
 |02a-preImputeQc.sh      |Submit as PBS job to perform quality checking                                                               |
-|02b-alignment_Omni.sh   |Submit as PBS job to perform alignment using HRC, run Run-plink.sh before moving on                         |
-|02b-alignment_Quad.sh   |Submit as PBS job to perform alignment using HRC, run Run-plink.sh before moving on                         |
-|02b-alignment_v1.sh     |Submit as PBS job to perform alignment using HRC, run Run-plink.sh before moving on                         |
-|02b-alignment_v3.sh     |Submit as PBS job to perform alignment using HRC, run Run-plink.sh before moving on                         |
-|02c-bgzip.sh            |Submit as PBS job to compress chromosome files for upload to imputation server (Michigan Imputation Server) |
+|02b-alignment_Omni.sh   |Submit as PBS job to perform alignment using HRC, run sh Run-plink.sh before moving on                         |
+|02b-alignment_Quad.sh   |Submit as PBS job to perform alignment using HRC, run sh Run-plink.sh before moving on                         |
+|02b-alignment_v1.sh     |Submit as PBS job to perform alignment using HRC, run sh Run-plink.sh before moving on                         |
+|02b-alignment_v3.sh     |Submit as PBS job to perform alignment using HRC, run sh Run-plink.sh before moving on                         |
+|02c-bgzip.sh            |Submit as PBS job to compress chromosome files for upload to imputation server                              |
 
 At this point imputation should be attempted/completed on the [Michigan Imputation Server](https://imputationserver.sph.umich.edu).
 

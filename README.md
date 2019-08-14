@@ -8,6 +8,8 @@ Workflow for imputation of PNC genomics data.
 | zebra stripes | are neat      |    $1 |
 
 Order to run for genotype imputation:
+
+|                        |                                                                                                            |
 | ---                    | ---                                                                                                        |
 |00a-createPheno.R       |Run as Rscript to make phenotype file with FID and IID as first two columns                                 |
 |00b-createFID_IID.R     |Run as Rscript to make FID_IID file                                                                         |

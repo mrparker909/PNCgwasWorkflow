@@ -11,16 +11,17 @@ Order to run for genotype imputation:
 |01a-subsetEA.sh         |Submit as PBS job to subset the genotype files for race = EA                                                |
 |01b-recodeAlleles.sh    |Submit as PBS job to recode alleles from 12 (AB) coding to ACGT coding                                      |
 |02a-preImputeQc.sh      |Submit as PBS job to perform quality checking                                                               |
-|02b-alignment_Omni.sh   |Submit as PBS job to perform alignment using HRC, run sh Run-plink.sh before moving on                         |
-|02b-alignment_Quad.sh   |Submit as PBS job to perform alignment using HRC, run sh Run-plink.sh before moving on                         |
-|02b-alignment_v1.sh     |Submit as PBS job to perform alignment using HRC, run sh Run-plink.sh before moving on                         |
-|02b-alignment_v3.sh     |Submit as PBS job to perform alignment using HRC, run sh Run-plink.sh before moving on                         |
+|02b-alignment_Omni.sh   |Submit as PBS job to perform alignment using HRC, run sh Run-plink.sh before moving on                      |
+|02b-alignment_Quad.sh   |Submit as PBS job to perform alignment using HRC, run sh Run-plink.sh before moving on                      |
+|02b-alignment_v1.sh     |Submit as PBS job to perform alignment using HRC, run sh Run-plink.sh before moving on                      |
+|02b-alignment_v3.sh     |Submit as PBS job to perform alignment using HRC, run sh Run-plink.sh before moving on                      |
 |02c-bgzip.sh            |Submit as PBS job to compress chromosome files for upload to imputation server                              |
 
 At this point imputation should be attempted/completed on the [Michigan Imputation Server](https://imputationserver.sph.umich.edu).
 
 | Filename               | Description                                                                                                |
 | ---                    | ---                                                                                                        |
+|02d-index.sh            |Submit as PBS job to index imputed files after download from imputation server                              |
 |03a-reheader_Omni.sh    |Submit as PBS array job to reheader GO_Omni imputed chromosome files                                        |
 |03b-reheader_Quad.sh    |Submit as PBS array job to reheader GO_Quad imputed chromosome files                                        |
 |03c-reheader_v1_hg18.sh |Submit as PBS array job to reheader GO_v1_hg18 imputed chromosome files                                     |

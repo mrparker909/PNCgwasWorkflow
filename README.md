@@ -1,5 +1,5 @@
 # PNCgwasWorkflow
-Workflow for imputation of [PNC](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000607.v1.p1) genomics data.
+Workflow for imputation of [PNC](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000607.v1.p1) genomics data (prior to genome wide association study).
 
 Order to run for genotype imputation:
 

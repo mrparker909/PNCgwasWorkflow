@@ -23,10 +23,10 @@ module load samtools
 module load htslib   # for bgzip
 module load bcftools
 
-GO_Omni="/zfs3/scratch/saram_lab/PNC/data/genotypeImputed/hrc/imputed_premerge/GO_Omni/"
-GO_Quad="/zfs3/scratch/saram_lab/PNC/data/genotypeImputed/hrc/imputed_premerge/GO_Quad/"
-GO_v3="/zfs3/scratch/saram_lab/PNC/data/genotypeImputed/hrc/imputed_premerge/GO_v3/"
-GO_v1_hg18="/zfs3/scratch/saram_lab/PNC/data/genotypeImputed/hrc/imputed_premerge/GO_v1_hg18/"
+GO_Omni="/zfs3/scratch/saram_lab/PNC/data/genotypeImputed/hrc/imputed_premerge/GO_Omni/reheadered"
+GO_Quad="/zfs3/scratch/saram_lab/PNC/data/genotypeImputed/hrc/imputed_premerge/GO_Quad/reheadered"
+GO_v3="/zfs3/scratch/saram_lab/PNC/data/genotypeImputed/hrc/imputed_premerge/GO_v3/reheadered"
+GO_v1_hg18="/zfs3/scratch/saram_lab/PNC/data/genotypeImputed/hrc/imputed_premerge/GO_v1_hg18/reheadered"
 
 sh post_reheader_merge.sh 1 22 $GO_Omni $GO_Quad $GO_v3 $GO_v1_hg18
 

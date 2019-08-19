@@ -27,3 +27,4 @@ At this point imputation should be attempted/completed on the [Michigan Imputati
 |03c-reheader_v1_hg18.sh |Submit as PBS array job to reheader GO_v1_hg18 imputed chromosome files                                     |
 |03d-reheader_v3.sh      |Submit as PBS array job to reheader GO_v3 imputed chromosome files                                          |
 |04-merge.sh             |Merge the separate reheadered chip chromosome files into one set of chromosome files                        |
+|05-final_merge.sh       |Merge the separate chromosome files into one single genotype file                                           |

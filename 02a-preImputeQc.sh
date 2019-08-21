@@ -7,8 +7,6 @@
 #PBS -l walltime=1:00:00
 #PBS -l procs=1
 
-#PBS -M mrparker909@gmail.com
-#PBS -m abe
 #PBS -o /zfs3/users/matthew.parker/matthew.parker/PBSlogs/log_$PBS_JOBID.txt
 #PBS -e /zfs3/users/matthew.parker/matthew.parker/PBSlogs/err_$PBS_JOBID.txt
 

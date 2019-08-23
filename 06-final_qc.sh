@@ -14,9 +14,9 @@ module load plink2
 
 cd /zfs3/scratch/saram_lab/PNC/data/genotypeImputed/hrc/merged/
 
-$inFile="hrc.merged"
-$outFile="hrc.cleaned"
-$assayFile="/zfs3/scratch/saram_lab/PNC/data/genotype/qc/EAsubjectOnly/post-align/assayed.txt"
+inFile="hrc.merged"
+outFile="hrc.cleaned"
+assayFile="/zfs3/scratch/saram_lab/PNC/data/genotype/qc/EAsubjectOnly/post-align/assayed.txt"
 
 # scan for incorrect strand assignment
 # see plink.flipscan for main report

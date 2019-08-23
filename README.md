@@ -16,6 +16,7 @@ Order to run for genotype imputation:
 |02b-alignment_v1.sh     |Submit as PBS job to perform alignment using HRC, run sh Run-plink.sh before moving on                      |
 |02b-alignment_v3.sh     |Submit as PBS job to perform alignment using HRC, run sh Run-plink.sh before moving on                      |
 |02c-bgzip.sh            |Submit as PBS job to compress chromosome files for upload to imputation server                              |
+|02d-assayed.sh          |Run with: sh 02d-assayed.sh, should complete very quickly, produces assayed.txt                             |
 
 At this point imputation should be attempted/completed on the [Michigan Imputation Server](https://imputationserver.sph.umich.edu).
 

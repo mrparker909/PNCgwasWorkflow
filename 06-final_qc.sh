@@ -17,6 +17,7 @@ cd /zfs3/scratch/saram_lab/PNC/data/genotypeImputed/hrc/merged/
 inFile="hrc_merged"
 outFile="hrc.cleaned"
 assayFile="/zfs3/scratch/saram_lab/PNC/data/genotype/qc/EAsubjectOnly/post-align/assayed.txt"
+ibdScript="/zfs3/users/matthew.parker/matthew.parker/PBSscripts/GenotypeImputation/gwasqc/scripts/ibd-cut.R"
 
 plink --vcf ${inFile}.vcf.gz --make-bed --out tmp
 
@@ -32,7 +33,7 @@ plink --bfile tmp --extract pruned --genome
 
 echo "Beginning IBD cuts..."
 # Cryptic relatedness check
-Rscript /zfs3/users/matthew.parker/matthew.parker/PBSscripts/GenotypeImputation/gwasqc/scripts/ibd-cut.R pruned.genome pruned.ibdcuts
+Rscript $ibdScript pruned.genome pruned.ibdcuts
 plink --bfile pruned --remove pruned.ibdcuts --make-bed --out $outFile
 
 echo "Done"

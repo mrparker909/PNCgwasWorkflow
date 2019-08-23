@@ -29,3 +29,4 @@ At this point imputation should be attempted/completed on the [Michigan Imputati
 |03d-reheader_v3.sh      |Submit as PBS array job to reheader GO_v3 imputed chromosome files                                          |
 |04-merge.sh             |Merge the separate reheadered chip chromosome files into one set of chromosome files                        |
 |05-final_merge.sh       |Merge the separate chromosome files into one single genotype file                                           |
+|06-final_qc.sh          |check for strand flip erros, perform LD pruning, IBD pruning, output cleaned hrc file                       |

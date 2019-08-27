@@ -1,0 +1,11 @@
+genotypename: pca.eigenstratgeno
+snpname: pca.snp
+indivname: pca.ind
+evecoutname: pca.eigenvec
+evaloutname: pca.eigenval
+altnormstyle: NO
+numoutevec: 20
+numoutlieriter: 5
+numoutlierevec: 10
+outliersigmathresh: 6.0
+outlieroutname: pca.outliers

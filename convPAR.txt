@@ -1,0 +1,7 @@
+genotypename: plink.ped
+snpname:      plink.map
+indivname:    plink.ped
+outputformat:    EIGENSTRAT
+genooutfilename:   pca.eigenstratgeno
+snpoutfilename:    pca.snp
+indoutfilename:    pca.ind

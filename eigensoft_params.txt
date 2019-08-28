@@ -9,3 +9,4 @@ numoutlieriter: 5
 numoutlierevec: 10
 outliersigmathresh: 6.0
 outlieroutname: pca.outliers
+snpweightoutname: pca.snp.weights

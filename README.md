@@ -32,3 +32,4 @@ At this point imputation should be attempted/completed on the [Michigan Imputati
 |06-final_qc.sh          |Perform LD pruning, IBD pruning, output cleaned hrc file                                                    |
 |07a-convert.sh          |Convert from  .ped/.map to EIGENSTRAT file format                                                           |
 |07b-pca.sh              |Perform PCA to extract eigenvectors and eigenvalues                                                         |
+|08-filterR2.sh          |Use the Rsquared values computed during imputation to remove SNPs with R2 less than 0.8                     |

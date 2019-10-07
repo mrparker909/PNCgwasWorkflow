@@ -1,0 +1,16 @@
+#!/bin/bash
+
+#PBS -N filterCHR1
+#PBS -l mem=10gb
+#PBS -l walltime=20:00:00
+#PBS -l procs=1
+
+#PBS -o ./log_$PBS_JOBID.txt
+#PBS -e ./err_$PBS_JOBID.txt
+
+cd ${PBS_O_WORKDIR}
+
+module load bcftools
+
+# filter for R squared greater than 0.8, and minor allele frequency greater than 0.05
+bcftools view -i 'R2>.8 & MAF>.05' -Oz chr1.vcf.gz > chr1.filtered.vcf.gz
